@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="Homepage_stylesheet.css">
+    </head>
+
+<body style="text-align: center">
+<h1 style="font-family:arial black">
+    Welcome to my Website!
+</h1>
+
+<style>
+  body {
+    background-color:white;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15;
+    overflow: hidden;
+    background-color: #38444d;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: purple;
+    color: gold
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: gold;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <ul>
+    <li><a href="Homepage.html">Home</a></li>
+    <li><a href="About_me.html">About</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Favourite NBA</a>
+      <div class="dropdown-content">
+        <a href="Fav_teams.html">Favourite NBA Teams</a>
+        <a href="Fav_laker.html">Favourite Laker Players</a>
+        <a href="Fav_players.html">Favourite Current Players</a>
+        <a href="Fav_all_time.html">Favourite All-Time NBA Players</a>
+      </div>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Favourite NFL</a>
+        <div class="dropdown-content">
+          <a href="#">Favourite NFL Teams</a>
+          <a href="#">Favourite Raven Players</a>
+          <a href="#">Favourite Current Players</a>
+          <a href="#">Favourite All-Time NFL Players</a>
+        </div>
+    </li>
+  </ul>
+  
+  </body>
+
+      <h1>This website is a display of my affection for my 2 favourite sports</h1>
+      <h2>Basketball & American Football</h2><br>
+      
+      <iframe class="frame-border" src="https://www.youtube.com/embed/gOm6mgD0ehU" width="560" height="315" 
+      frameborder="0" allowfullscreen></iframe> <br><br>
+      <iframe class="frame-border" src="https://www.youtube.com/embed/hodSGFxacI4" width="560" height="315" 
+      frameborder="0" allowfullscreen></iframe>
+</body>
